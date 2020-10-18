@@ -1,12 +1,12 @@
 .perfil{
-    background-image: url("/images/perfil/20200930_125017.jpg");
+    background-image: url("../images/perfil/20200930_125017.jpg");
 }
 
 /* Tamanho das imagens */
 /* 234x217 */
 .post1{
-    background-image: url("/images/post/post1.jpg");
+    background-image: url("../images/post/post1.jpg");
 }
 .post2{
-    background-image: url("/images/post/post2.jpg");
+    background-image: url("../images/post/post2.jpg");
 }
