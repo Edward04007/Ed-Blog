@@ -223,3 +223,29 @@
     }
     
 }
+@media ( max-height: 607px){
+    
+    .conteudo article{
+         
+        margin-bottom: 4.5em;
+    }
+    .conteudo article h1{
+        color: #252222;
+        font-size: 1.2rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article h2{
+        color: #3d3b3b;
+        margin-top: 0.2em;
+        font-size: 0.7rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article p{
+        font-size: 0.9rem;
+        text-align: justify;
+        font-family: var(--fonte-do-texto);
+    }
+    
+}
