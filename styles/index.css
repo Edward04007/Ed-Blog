@@ -51,20 +51,22 @@
 .conteudo section article figure{
     height: 217px;
     background-size: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     border-top-left-radius: 0.7em;
     border-top-right-radius: 0.7em;
 }
 .conteudo section article figcaption{
     height: 50px;
-    padding-top: 1em;
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     border-bottom-left-radius: 0.7em;
     border-bottom-right-radius: 0.7em;
     background-color: var(--cor-da-barra-do-post);
 }
 .conteudo section article figcaption a{
-    padding: 0.4em;
     color: #2e3144;
     font-size: 1.4rem;
     font-family: var(--fonte-da-legenda);
@@ -91,100 +93,4 @@
 .menu span{
     font-size: 1.4rem;
     color:var(--cor-do-texto-cabeçalho-e-dos-ícones);
-}
-@media ( max-width: 360px){
-    
-    .conteudo section article{
-        width: 80%;
-        height: 35%;
-        margin: 1.5em;
-        border-radius: 0.7em;
-        background-color: rgb(199, 51, 51);
-        box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
-    }
-    .conteudo section article figure{
-        height: 80%;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        border-top-left-radius: 0.7em;
-        border-top-right-radius: 0.7em;
-    }
-    .conteudo section article figcaption{
-        height: 30%;
-        padding-top: 1em;
-        text-align: center;
-        border-bottom-left-radius: 0.7em;
-        border-bottom-right-radius: 0.7em;
-        background-color: var(--cor-da-barra-do-post);
-    }
-    .conteudo section article figcaption a{
-        padding: 0.4em;
-        color: #2e3144;
-        font-size: 1.4rem;
-        font-family: var(--fonte-da-legenda);
-    }
-}
-@media ( max-width: 320px){
-    
-    .conteudo section article{
-        width: 80%;
-        height: 35%;
-        margin: 1.5em;
-        border-radius: 0.7em;
-        background-color: rgb(77, 218, 34);
-        box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
-    }
-    .conteudo section article figure{
-        height: 80%;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        border-top-left-radius: 0.7em;
-        border-top-right-radius: 0.7em;
-    }
-    .conteudo section article figcaption{
-        height: 35%;
-        padding-top: 1em;
-        text-align: center;
-        border-bottom-left-radius: 0.7em;
-        border-bottom-right-radius: 0.7em;
-        background-color: var(--cor-da-barra-do-post);
-    }
-    .conteudo section article figcaption a{
-        padding: 0.4em;
-        color: #2e3144;
-        font-size: 1.4rem;
-        font-family: var(--fonte-da-legenda);
-    }
-}
-@media ( max-width: 280px){
-    
-    .conteudo section article{
-        width: 80%;
-        height: 30%;
-        margin: 1.5em;
-        border-radius: 0.7em;
-        background-color: rgb(199, 189, 51);
-        box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
-    }
-    .conteudo section article figure{
-        height: 70%;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        border-top-left-radius: 0.7em;
-        border-top-right-radius: 0.7em;
-    }
-    .conteudo section article figcaption{
-        height: 35%;
-        padding-top: 1em;
-        text-align: center;
-        border-bottom-left-radius: 0.7em;
-        border-bottom-right-radius: 0.7em;
-        background-color: var(--cor-da-barra-do-post);
-    }
-    .conteudo section article figcaption a{
-        padding: 0.4em;
-        color: #2e3144;
-        font-size: 1.4rem;
-        font-family: var(--fonte-da-legenda);
-    }
 }

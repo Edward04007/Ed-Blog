@@ -1,0 +1,225 @@
+@media ( max-width: 1050px){
+    
+    .conteudo article{
+        margin-bottom: 4.5em;
+    }
+    .conteudo article h1{
+        color: #252222;
+        font-size: 2rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article h2{
+        color: #3d3b3b;
+        margin-top: 0.2em;
+        font-size: 1rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article p{
+        font-size: 1.5rem;
+        text-align: justify;
+        font-family: var(--fonte-do-texto);
+    }
+    
+}
+@media ( max-width: 950px){
+    
+    .conteudo article{
+        margin-bottom: 4.5em;
+    }
+    .conteudo article h1{
+        color: #252222;
+        font-size: 2rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article h2{
+        color: #3d3b3b;
+        margin-top: 0.2em;
+        font-size: 1rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article p{
+        font-size: 1.5rem;
+        text-align: justify;
+        font-family: var(--fonte-do-texto);
+    }
+    
+}
+@media ( max-width: 850px){
+    
+    .conteudo article{
+        margin-bottom: 4.5em;
+    }
+    .conteudo article h1{
+        color: #252222;
+        font-size: 2rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article h2{
+        color: #3d3b3b;
+        margin-top: 0.2em;
+        font-size: 1rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article p{
+        font-size: 1.5rem;
+        text-align: justify;
+        font-family: var(--fonte-do-texto);
+    }
+    
+}
+@media ( max-width: 750px){
+    
+    .conteudo article{
+        margin-bottom: 4.5em;
+    }
+    .conteudo article h1{
+        color: #252222;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article h2{
+        color: #3d3b3b;
+        margin-top: 0.2em;
+        font-size: 1rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article p{
+        font-size: 1.4rem;
+        text-align: justify;
+        font-family: var(--fonte-do-texto);
+    }
+    
+}
+@media ( max-width: 650px){
+    
+    .conteudo article{
+        margin-bottom: 4.5em;
+    }
+    .conteudo article h1{
+        color: #252222;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article h2{
+        color: #3d3b3b;
+        margin-top: 0.2em;
+        font-size: 0.9rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article p{
+        font-size: 1.2rem;
+        text-align: justify;
+        font-family: var(--fonte-do-texto);
+    }
+    
+}
+@media ( max-width: 550px){
+    
+    .conteudo article{
+        margin-bottom: 4.5em;
+    }
+    .conteudo article h1{
+        color: #252222;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article h2{
+        color: #3d3b3b;
+        margin-top: 0.2em;
+        font-size: 0.9rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article p{
+        font-size: 1.1rem;
+        text-align: justify;
+        font-family: var(--fonte-do-texto);
+    }
+    
+}
+@media ( max-width: 450px){
+    
+    .conteudo article{
+        margin-bottom: 4.5em;
+    }
+    .conteudo article h1{
+        color: #252222;
+        font-size: 1.2rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article h2{
+        color: #3d3b3b;
+        margin-top: 0.2em;
+        font-size: 0.7rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article p{
+        font-size: 1rem;
+        text-align: justify;
+        font-family: var(--fonte-do-texto);
+    }
+    
+}
+@media ( max-width: 350px){
+    
+    .conteudo article{
+        margin-bottom: 4.5em;
+    }
+    .conteudo article h1{
+        color: #252222;
+        font-size: 1.2rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article h2{
+        color: #3d3b3b;
+        margin-top: 0.2em;
+        font-size: 0.7rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article p{
+        font-size: 00.999rem;
+        text-align: justify;
+        font-family: var(--fonte-do-texto);
+    }
+    
+}
+@media ( max-width: 320px){
+    
+    .conteudo article{
+        margin-bottom: 4.5em;
+    }
+    .conteudo article h1{
+        color: #252222;
+        font-size: 1.2rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article h2{
+        color: #3d3b3b;
+        margin-top: 0.2em;
+        font-size: 0.7rem;
+        text-align: center;
+        font-family: var(--fonte-dos-titulos);
+    }
+    .conteudo article p{
+        font-size: 0.9rem;
+        text-align: justify;
+        font-family: var(--fonte-do-texto);
+    }
+    
+}
