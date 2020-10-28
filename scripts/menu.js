@@ -17,7 +17,11 @@ function menu( item, item1, item2,){
         item1.classList.remove('mostrar')
         item.classList.remove('mostrar')
     })
-
+    document.querySelector('.conteudo').addEventListener('click', () =>{
+        item2.classList.remove('mostrar')
+        item1.classList.remove('mostrar')
+        item.classList.remove('mostrar')
+    })
 
 }   
 

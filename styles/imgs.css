@@ -1,6 +1,6 @@
 /* Foto de perfil */
 .perfil{
-    background-image: url("../images/perfil/ed.jpg");
+    background-image: url("../images/perfil/ed.jpeg");
 }
 /* Tamanho das imagens para celulares */
 /* 234x217 */
@@ -9,4 +9,7 @@
 }
 .post2{
     background-image: url("../images/post/post2.jpg");
+}
+.post3{
+    background-image: url("../images/post/post3.png");
 }

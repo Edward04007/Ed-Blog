@@ -1,70 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="pt-br"
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>EdBlog</title>
+    <meta name='description' content="Olá! Este é meu blog pessoal, onde postarei um pouco de tudo">
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT, ESCOLAR, PESSOAL">
+    <meta name="author" content="Éverton (Ed)">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>EdBlog</title>
     <link rel='stylesheet' type='text/css' media='screen' href='./styles/index.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='./styles/imgs.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='./styles/reset.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='./styles/media-query.css'>
+    <script src='./scripts/menu.js' defer></script>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Roboto:wght@900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8544c965ee.js" crossorigin="anonymous"></script>
-    <script src='./scripts/menu.js' defer></script>
 </head>
 <body>
-    <header class="cabe">
-        <h1>EdBlog</h1>
-        <picture class="perfil"></picture>
-    </header>
-    <div class="conteudo">
-        <section>
-            <article>
-                <figure class="post1"></figure>
-                <figcaption><a href="./pages/post1.html">Longe de casa</a></figcaption>
-            </article>
-            <article>
-                <figure class="post2"></figure>
-                <figcaption><a href="#">Lendas japonesas nos animes</a></figcaption>
-            </article>
-        </section>
+<header class="cabe">
+    <h1>EdBlog</h1>
+    <picture class="perfil"></picture>
+</header>
+<div class="conteudo">
+    <section>
+        <article>
+            <figure class="post1"></figure>
+            <figcaption><a href="./pages/post1.html">Longe de casa</a></figcaption>
+        </article>
+        <article>
+            <figure class="post2"></figure>
+            <figcaption><a href="./pages/post2.html">Lendas japonesas nos animes</a></figcaption>
+        </article>
+        <article>
+            <figure class="post3"></figure>
+            <figcaption><a href="./pages/post3.html">2020</a></figcaption>
+        </article>
+    </section>
+</div>
+<header class="menu">
+    <div class="vida">
+        <legend>Minha Vida</legend>
+        <ul>
+            <li><a href="./pages/post1.html">Longe de Casa</a></li>
+            <li><a href="./pages/post2.html">Lendas japonesas nos animes</a></li>
+            <li><a href="./pages/post3.html">2020</a></li>
+        </ul>
     </div>
-    <header class="menu">
-        <div class="vida">
-            <legend>Minha Vida</legend>
-            <ul>
-                <li><a href="#">Titulos</a></li>
-                <li><a href="#">Titulos</a></li>
-                <li><a href="#">Titulos</a></li>
-                <li><a href="#">Titulos</a></li>
-            </ul>
-        </div>
-       <div class="site">
-            <legend>Meus Sites</legend>
-            <ul>
-                <li><a href="https://ednoob.000webhostapp.com/">EdNoob</a></li>
-                <li><a href="#">Titulos</a></li>
-                <li><a href="#">Titulos</a></li>
-                <li><a href="#">Titulos</a></li>
-            </ul>
-        </div>
-        <div class="escola">
-            <legend>Sobre a Escola</legend>
-            <ul>
-                <li><a href="#">Titulos</a></li>
-                <li><a href="#">Titulos</a></li>
-                <li><a href="#">Titulos</a></li>
-                <li><a href="#">Titulos</a></li>
-            </ul>
-        </div>
-        <nav>
-            <picture class="perfil"></picture>
-            <a href="./index.html"><span class="fas fa-home"></span></a>
-            <span class="fas fa-id-badge icon1"></span>
-            <span class="fas fa-pager icon2"></span>
-            <span class="fas fa-school icon3"></span>
-        </nav>
-    </header>
+    <div class="site">
+        <legend>Meus Sites</legend>
+        <ul>
+            <li><a href="https://ednoob.000webhostapp.com/">EdNoob</a></li>
+            <li><a href="https://edlist2020ep.000webhostapp.com/">EdList</a></li>
+            <li><a href="https://edquis.surge.sh/">EdQuiz</a></li>
+        </ul>
+    </div>
+    <div class="escola">
+        <legend>Sobre a Escola</legend>
+        <ul>
+            <li><a href="#">Titulos</a></li>
+            <li><a href="#">Titulos</a></li>
+            <li><a href="#">Titulos</a></li>
+            <li><a href="#">Titulos</a></li>
+        </ul>
+    </div>
+    <nav>
+        <picture class="perfil"></picture>
+        <a href="./index.html" title="Voltar a página principal"><span class="fas fa-home"></span></a>
+        <span class="fas fa-id-badge icon1" title="Minha vida"></span>
+        <span class="fas fa-pager icon2" title="Meus Sites"></span>
+        <span class="fas fa-school icon3" title="Sobre a Escola"></span>
+        <a href="https://www.youtube.com/channel/UCWmUztmWBOuE7zhGHkwa_Zw?view_as=subscriber" target="_blank" title="Meu Canal no Youtube"><span class="fab fa-youtube"></span></a>
+    </nav>
+</header>
 </body>
 </html>
