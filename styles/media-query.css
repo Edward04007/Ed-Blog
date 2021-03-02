@@ -30,16 +30,15 @@
     overflow: auto;
     flex-wrap: wrap;
     margin-left: 4em;
+    border-radius: 1em;
     flex-direction: row;
-    border-radius: 0.7em;
     align-items: flex-start;
-    box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
+    box-shadow: -5px 7px 11px -6px rgba(62, 59, 63, 0.36), 1px 14px 14px -2px rgba(63, 63, 63, 0.20);
 }
 .conteudo section a{
     width: 30%;
     height: 45%;
     flex: 1 1 349px;
-    background-color: rgb(139, 248, 106);
 }
 .conteudo section a figure{
     height: 70%;
@@ -48,7 +47,7 @@
     height: 35%;
 }
 .conteudo section a figcaption span{
-    font-size: 1.9rem;
+    font-size: 1.6rem;
 }
 .vida{
     top: 7em;   
@@ -85,7 +84,7 @@
 }  
 .menu span:hover{
     border-radius: 10%;
-    background-color: rgba(240, 248, 255, 0.562);
+    background-color: rgba(55, 153, 240, 0.562);
 }
 }
 /* Table e Mobile */
@@ -113,7 +112,6 @@
 .conteudo section a{
     width: 90%;
     height: 45%;
-    background-color: rgb(77, 218, 34);
 }
 .conteudo section a figure{
      height: 70%;
@@ -226,7 +224,7 @@
 @media screen and ( max-width: 450px){
     
 .conteudo section a figcaption span{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 .vida{
     left: auto;

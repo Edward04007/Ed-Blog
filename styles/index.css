@@ -1,14 +1,15 @@
 :root{
     /* Cores do site */
-    --cor-de-fundo1:#E8E8E8;
-    --cor-de-fundo2:#E9F0F0;
-    --cor-principal: #3F58DB;
-    --cor-da-barra-do-post:#f7eeee;
+    --cor-de-fundo1: #edf3f2;
+    --cor-de-fundo2: #F3FAF8;
+    --cor-principal: #257ABB;
+    --cor-da-barra-do-post:#eaeff5;
     --cor-do-texto-cabeçalho-e-dos-ícones: #E8E8E8;
 
     /* Fontes do site */
     --fonte-da-legenda:'PT Sans', sans-serif;
-    --fonte-do-cabeçalho: 'Roboto', sans-serif;
+    --fonte-do-cabeçalho: 'Roboto Mono', monospace;
+    --font-do-titulo-menu: 'Roboto', sans-serif;
 }
 .cabe{
     width: 100%;
@@ -46,7 +47,8 @@
     height: 240px;
     margin: 0.9em;
     border-radius: 0.7em;
-    box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
+    box-shadow: -5px 8px 19px -15px #838480, 
+    -3px 7px 28px -10px rgba(63, 62, 62, 0.71);
 }
 .conteudo section a figure{
     height: 217px;
@@ -64,11 +66,14 @@
     justify-content: center;
     border-bottom-left-radius: 0.7em;
     border-bottom-right-radius: 0.7em;
+    box-shadow: -5px 8px 19px -15px #838480;
     background-color: var(--cor-da-barra-do-post);
 }
 .conteudo section a figcaption span{
-    color: #2e3144;
+    color: #1c3d5c;
     font-size: 1.4rem;
+    font-weight: bold;
+    white-space: nowrap;
     font-family: var(--fonte-da-legenda);
 }
 .conteudo section article figcaption span:hover{
@@ -122,9 +127,11 @@
 .menu div legend{
     margin: 1em;
     display: flex;
-    font-size: 1.5rem;
+    color: #252e36;  
+    font-size: 1.3rem;
+    font-weight: bold;
     justify-content: center;
-    font-family: var(--fonte-do-cabeçalho);
+    font-family: var(--font-do-titulo-menu);
 }
 .menu div ul{
     width: 100%;
@@ -142,7 +149,7 @@
     text-align: center;
     color: rgb(54, 52, 52);
     font-family: var(--fonte-da-legenda);
-    border-bottom: solid 1px rgb(143, 141, 141);
+    border-bottom: solid 1px rgba(53, 50, 50, 0.13);
 }
 .menu div ul li a:hover{
     background-color: #5671f5ef;

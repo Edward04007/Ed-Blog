@@ -1,15 +1,17 @@
 :root{
-    /* Cores do site */
-    --cor-principal: #3F58DB;
-    --cor-de-fundo1:#E8E8E8;
-    --cor-de-fundo2:#E9F0F0;
-    --cor-da-barra-do-post:#f7eeee;
-    --cor-do-texto-cabeçalho-e-dos-ícones: #E8E8E8;
-
-    /* Fontes do site */
-    --fonte-do-cabeçalho: 'Roboto', sans-serif;
-    --fonte-dos-titulos:'Poppins', sans-serif;
-    --fonte-do-texto:'Sora', sans-serif;
+      /* Cores do site */
+      --cor-de-fundo1: #edf3f2;
+      --cor-de-fundo2: #F3FAF8;
+      --cor-principal: #257ABB;
+      --cor-da-barra-do-post:#eaeff5;
+      --cor-do-texto-cabeçalho-e-dos-ícones: #E8E8E8;
+  
+      /* Fontes do site */
+      --fonte-da-legenda:'PT Sans', sans-serif;
+      --fonte-do-cabeçalho: 'Roboto Mono', monospace;
+      --font-do-titulo-menu: 'Roboto', sans-serif;
+      --fonte-dos-titulos:'Poppins', sans-serif;
+      --fonte-do-texto:'Sora', sans-serif;
 }
 .cabe{
     width: 100%;
@@ -30,46 +32,46 @@
 .conteudo{
     width: 100%;
     height: 100%;
-    padding: 0.7em;
-    background-color: var(--cor-de-fundo2)
-}
-.conteudo article{
     display: flex;
-    margin-bottom: 4.5em;
+    padding: 15em;
+    overflow: auto;
     flex-direction: column;
+    background-color: var(--cor-de-fundo2);
 }
-.conteudo article h1{
+.conteudo h1{
     color: #252222;
     font-size: 1.4rem;
     text-align: center;
+    margin-bottom: 0.4em;
     font-family: var(--fonte-dos-titulos);
 }
-.conteudo article h2{
+.conteudo h2{
     color: #3d3b3b;
     margin-top: 0.2em;
     font-size: 0.9rem;
     text-align: center;
-    margin-bottom: 0.7em;
+    margin-bottom: 3em;
     font-family: var(--fonte-dos-titulos);
 }
-.conteudo article h3{
+.conteudo h3{
     margin-top: 0.2em;
     font-size: 1.3rem;
     text-align: justify;
     margin-bottom: 0.7em;
     font-family: var(--fonte-dos-titulos);
 }
-.conteudo article h4{
+.conteudo h4{
     margin-top: 0.2em;
     font-size: 1.3rem;
     text-align: center;
     margin-bottom: 0.7em;
     font-family: var(--fonte-dos-titulos);
 }
-.conteudo article p{
-    font-size: 1rem;
+.conteudo p{
+    font-size: 1.3rem;
     text-align: justify;
     font-family: var(--fonte-do-texto);
+    margin-top: 1em;
 }
 .vida{
     left: auto;
@@ -119,9 +121,11 @@
 .menu div legend{
     margin: 1em;
     display: flex;
-    font-size: 1.5rem;
+    color: #252e36;  
+    font-size: 1.3rem;
+    font-weight: bold;
     justify-content: center;
-    font-family: var(--fonte-do-cabeçalho);
+    font-family: var(--font-do-titulo-menu);eçalho);
 }
 .menu div ul{
     width: 100%;
@@ -139,7 +143,7 @@
     text-align: center;
     color: rgb(54, 52, 52);
     font-family: var(--fonte-da-legenda);
-    border-bottom: solid 1px rgb(143, 141, 141);
+    border-bottom: solid 1px rgba(53, 50, 50, 0.13);
 }
 .menu div ul li a:hover{
     background-color: #5671f5ef;
