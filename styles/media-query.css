@@ -35,19 +35,19 @@
     align-items: flex-start;
     box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
 }
-.conteudo section article{
+.conteudo section a{
     width: 30%;
     height: 45%;
     flex: 1 1 349px;
     background-color: rgb(139, 248, 106);
 }
-.conteudo section article figure{
+.conteudo section a figure{
     height: 70%;
 }
-.conteudo section article figcaption{
+.conteudo section a figcaption{
     height: 35%;
 }
-.conteudo section article figcaption a{
+.conteudo section a figcaption span{
     font-size: 1.9rem;
 }
 .vida{
@@ -106,21 +106,22 @@
     height: 100%;
     overflow: hidden;
     flex-wrap: nowrap;
+    padding-bottom: 5em;
     align-items: center;
     flex-direction: column;
 }
-.conteudo section article{
-    width: 80%;
-    height: 35%;
+.conteudo section a{
+    width: 90%;
+    height: 45%;
     background-color: rgb(77, 218, 34);
 }
-.conteudo section article figure{
+.conteudo section a figure{
      height: 70%;
 }
-.conteudo section article figcaption{
+.conteudo section a figcaption{
     height: 35%;
 }
-.conteudo section article figcaption a{
+.conteudo section a figcaption span{
     font-size: 2.7rem;
 }
 .vida{
@@ -189,17 +190,10 @@
     height: 100%;
     overflow: hidden;
     flex-wrap: nowrap;
-    padding-bottom: 4em;
     align-items: center;
     flex-direction: column;
 }
-.conteudo section article {
-    width: 80%;
-    height: 35%;
-    background-color: rgb(77, 218, 34);
-    box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
-}
-.conteudo section article figcaption a{
+.conteudo section a figcaption span{
     font-size: 2rem;
 }
 .menu div legend{
@@ -231,7 +225,7 @@
 }
 @media screen and ( max-width: 450px){
     
-.conteudo section article figcaption a{
+.conteudo section a figcaption span{
     font-size: 1.4rem;
 }
 .vida{
@@ -261,7 +255,7 @@
 }
 @media screen and ( max-width: 350px){
     
-.conteudo section article{
+.conteudo section a{
     background-color: rgb(52, 34, 218);   
 }   
 .vida{
@@ -288,7 +282,7 @@
 }
 @media screen and ( max-width: 280px){
     
-.conteudo section article figure{
+.conteudo section a figure{
     height: 70%;
 }
 }

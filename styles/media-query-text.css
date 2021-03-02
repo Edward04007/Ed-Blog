@@ -90,6 +90,7 @@
     display: none;
 }
 .conteudo{
+    height: 300%;
     display: block;
 }
 .conteudo article{
@@ -310,12 +311,5 @@
 .conteudo article h3{
     margin-top: 0.8em;
     font-size: 1.1rem; 
-}
-}
-@media screen and ( max-height: 850px){
- 
-.conteudo{
-    height: 300%;
-    display: block;
 }
 }

@@ -41,15 +41,14 @@
     flex-direction: column;
     background-color: var(--cor-de-fundo1);
 }
-.conteudo section article{
+.conteudo section a{
     width: 324px;
     height: 240px;
-    margin: 1.5em;
+    margin: 0.9em;
     border-radius: 0.7em;
-    background-color: gray;
     box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
 }
-.conteudo section article figure{
+.conteudo section a figure{
     height: 217px;
     background-size: 100%;
     background-position: center;
@@ -57,7 +56,7 @@
     border-top-left-radius: 0.7em;
     border-top-right-radius: 0.7em;
 }
-.conteudo section article figcaption{
+.conteudo section a figcaption{
     height: 50px;
     display: flex;
     text-align: center;
@@ -67,17 +66,17 @@
     border-bottom-right-radius: 0.7em;
     background-color: var(--cor-da-barra-do-post);
 }
-.conteudo section article figcaption a{
+.conteudo section a figcaption span{
     color: #2e3144;
     font-size: 1.4rem;
     font-family: var(--fonte-da-legenda);
 }
-.conteudo section article figcaption a:hover{
+.conteudo section article figcaption span:hover{
     text-decoration: underline;
 }
 .vida{
-    left: auto;
     top: auto;
+    left: auto;
     width: 80%;
     bottom: 8%;
     height: 40%;
@@ -90,8 +89,8 @@
     box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
 }
 .site{
-    left: auto;
     top: auto;
+    left: auto;
     width: 80%;
     bottom: 8%;
     height: 40%;
@@ -104,8 +103,8 @@
     box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
 }
 .escola{
-    left: auto;
     top: auto;
+    left: auto;
     width: 80%;
     bottom: 8%;
     height: 40%;
