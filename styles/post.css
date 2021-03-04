@@ -40,7 +40,8 @@
 }
 .conteudo h1{
     color: #252222;
-    font-size: 1.4rem;
+    font-size: 1.9rem;
+    font-weight: bold;
     text-align: center;
     margin-bottom: 0.4em;
     font-family: var(--fonte-dos-titulos);
@@ -49,29 +50,61 @@
     color: #3d3b3b;
     margin-top: 0.2em;
     font-size: 0.9rem;
+    font-weight: bold;
     text-align: center;
     margin-bottom: 3em;
     font-family: var(--fonte-dos-titulos);
 }
 .conteudo h3{
     margin-top: 0.2em;
-    font-size: 1.3rem;
-    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
     margin-bottom: 0.7em;
     font-family: var(--fonte-dos-titulos);
 }
 .conteudo h4{
     margin-top: 0.2em;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.7em;
+    font-family: var(--fonte-dos-titulos);
+}
+.conteudo h5{
+    margin-top: 0.2em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.7em;
+    font-family: var(--fonte-dos-titulos);
+}
+.conteudo h6{
+    margin-top: 0.2em;
+    font-size: 1.2rem;
     text-align: center;
     margin-bottom: 0.7em;
     font-family: var(--fonte-dos-titulos);
 }
 .conteudo p{
+    margin-top: 1em;
     font-size: 1.3rem;
     text-align: justify;
     font-family: var(--fonte-do-texto);
+}
+.conteudo ul{
     margin-top: 1em;
+    font-size: 1.2rem;
+    text-align: justify;
+    font-family: var(--fonte-do-texto);
+   
+}
+.conteudo ul li{
+    font-size: 1.3rem;
+    margin-top: 0.3em;
+    text-align: justify;
+    font-family: var(--fonte-do-texto);
+    list-style: circle;
 }
 .vida{
     left: auto;
